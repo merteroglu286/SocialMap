@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952891183325",
+    "firebase_url": "https://social-map-a8508-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "social-map-a8508",
+    "storage_bucket": "social-map-a8508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952891183325:android:22b8464807964a0f0dcb34",
+        "android_client_info": {
+          "package_name": "com.example.socialmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952891183325-r7pctiu64v19niqjhfkb7ko6vm7289ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialmap",
+            "certificate_hash": "a765a078293531858461a9d699055ebb7bd50e48"
+          }
+        },
+        {
+          "client_id": "952891183325-eaj70ft463u5ntc76tpdaus8s2rur2hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANbs0zwUrFO6OQ58E69hGERtObMPtyerw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952891183325-eaj70ft463u5ntc76tpdaus8s2rur2hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

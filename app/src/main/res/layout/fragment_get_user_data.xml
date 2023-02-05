@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.GetUserData"
+    android:background="@color/myColor">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/myColor"
+        android:paddingTop="40dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgUser"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avatar"
+            />
+
+        <ImageView
+            android:id="@+id/imgPickImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            app:layout_anchor="@id/imgUser"
+            app:layout_anchorGravity="end|center" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/coordinatorLayout"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="4dp"
+            >
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:hint="İsim"
+                android:inputType="text|textCapSentences"
+                android:padding="10dp"
+                android:background="#EBFDFF"
+                android:textSize="15dp"
+                android:layout_marginRight="4dp"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:hint="Soyisim"
+                android:layout_marginStart="8dp"
+                android:inputType="text|textCapSentences"
+                android:textAlignment="center"
+                android:background="#EBFDFF"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="216dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dp"
+            android:hint="Kullanıcı Adı"
+            android:layout_marginStart="4dp"
+            android:inputType="text|textCapSentences"
+            android:textAlignment="center"
+            android:background="#EBFDFF"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUserStatus"
+            android:layout_width="216dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dp"
+            android:hint="Hakkında"
+            android:layout_marginStart="4dp"
+            android:inputType="text|textCapSentences"
+            android:textAlignment="center"
+            android:background="#EBFDFF"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:checkedButton="@id/male"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:button="@color/transparent"
+                android:background="@drawable/radio_male"
+                />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:button="@color/transparent"
+                android:background="@drawable/radio_female"/>
+
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:id="@+id/btnDataDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:padding="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devam"
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_gravity="center"
+                app:tint="@color/white"
+                android:layout_marginTop="3dp"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:indeterminateTint="@color/white"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

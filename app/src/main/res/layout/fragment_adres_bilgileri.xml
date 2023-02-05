@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AdresBilgileriFragment"
+    android:background="@color/myColor">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adres Bilgileriniz"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ic_baseline_brightness_1_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"
+                android:text="Adres bilgileriniz diğer kullanıcılar tarafından gözükmeyecektir"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ic_baseline_brightness_1_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"
+                android:text="Size daha iyi hizmet verebilmek için lütfen adres bilgilerinizi doğru giriniz."
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linear2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_centerHorizontal="true">
+
+
+        <EditText
+            android:id="@+id/editText_sehir"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:background="#EBFDFF"
+            android:hint="Şehir"
+            android:inputType="text|textCapSentences"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_ilce"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:background="#EBFDFF"
+            android:hint="İlçe"
+            android:inputType="text|textCapSentences"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_mahalle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:background="#EBFDFF"
+            android:hint="Mahalle"
+            android:inputType="text|textCapSentences"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnDataDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:padding="4dp"
+        android:layout_below="@id/linear2"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devam"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_gravity="center"
+            app:tint="@color/white"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottomnav"
+    app:startDestination="@id/btnChat">
+
+    <fragment
+        android:id="@+id/btnChat"
+        android:name="com.example.socialmap.fragments.ChatFragment"
+        android:label="ChatFragment"
+        tools:layout="@layout/fragment_chat"/>
+    <fragment
+        android:id="@+id/btnContact"
+        android:name="com.example.socialmap.fragments.ContactFragment"
+        android:label="ContactFragment"
+        tools:layout="@layout/fragment_contact"/>
+    <fragment
+        android:id="@+id/btnMap"
+        android:name="com.example.socialmap.fragments.MapsFragment"
+        android:label="MapsFragment"
+        tools:layout="@layout/fragment_maps"/>
+    <fragment
+        android:id="@+id/btnProfile"
+        android:name="com.example.socialmap.fragments.Profile.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>

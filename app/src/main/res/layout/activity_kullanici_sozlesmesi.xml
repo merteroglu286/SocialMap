@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.KullaniciSozlesmesi"
+    android:background="@color/myColor">
+
+  <androidx.core.widget.NestedScrollView
+      android:id="@+id/nsv_main"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:clipToPadding="false"
+      android:scrollbars="vertical"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+      <include
+          layout="@layout/layout_vertical_scroller" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="GİZLİLİK SÖZLEŞMESİ"
+          android:layout_marginBottom="8dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:textSize="18dp"/>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, kişisel bilgi ve veri güvenliğini önemsemekte ve bu hususta gerekli olan tüm tedbirleri almaya özen göstermektedir. Kullanıcılar da uygulamayı kullanarak işbu gizlilik sözleşmesi hükümlerine uygun davranacaklarını kabul, beyan ve taahhüt ederler."/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="İşbu Gizlilik Sözleşmesi, Uygulamanın tüm bölümlerinde geçerli olacaktır."/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Kullanıcıların bilgilerinin korunması ve gizliliğin sürdürülebilmesi Social Map’in birinci önceliğidir. Bu nedenle Kullanıcıların vermiş olduğu bilgiler sözleşmede belirtilen kurallar ve amaçlar dışında herhangi bir kapsamda kullanılmayacak, üçüncü şahıslarla paylaşılmayacaktır. Social Map’in, Kullanıcı tarafından siteye kayıt formunda belirtilen veya daha sonra kendisi tarafından güncellenen adresi, e-posta adresi, sabit ve mobil telefon hatları ve diğer iletişim bilgileri üzerinden mektup, e-posta, SMS, telefon görüşmesi ve diğer yollarla iletişim, pazarlama, bildirim ve diğer amaçlarla Kullanıcıya ulaşma hakkı bulunmaktadır. Kullanıcı, işbu sözleşmeyi kabul etmekle aksine bir yazılı bildirimi olmadığı müddetçe Social Map’in kendisine yönelik yukarıda belirtilen iletişim faaliyetlerinde bulunabileceğini kabul ve beyan etmektedir."/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, Uygulama kapsamında Kullanıcı tarafından paylaşılmış olan bilgilere erişebilir. Social Map, bu bilgileri Uygulamanın kullanımına yönelik olarak yalnızca iştirakçileri ile paylaşacağını taahhüt eder. Kullanıcı da bu bilgilerin Uygulamanın amacına yönelik olarak kendisi ile iletişime geçilmek için kullanılacağını kabul eder. Social Map, kendisine iletilen kişisel verileri ve bilgileri, bilgilerin toplanması ile ilgili açıklanan yukarıdaki amaçlar dışında üçüncü kişilerle kesinlikle paylaşmayacak, satışını yapmayacak ve hiç bir şart altında kullanılmasına izin vermeyecektir."/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Uygulamadaki sistemle ilgili sorunların tanımlanabilmesi ve Uygulamada çıkabilecek muhtemel sorunların acil olarak giderilmesi için, Social Map gerektiğinde Kullanıcıların IP adresini, sosyal ağ kullanıcı hesabında kayıtlı bilgileri kaydedebilir ve bu kayıtları anılan bu amaçlarla kullanabilir. Bu IP adresleri, Social Map tarafından kullanıcılarını ve ziyaretçilerini genel anlamda tanımlamak ve kapsamlı şekilde demografik veri toplayabilmek amacıyla kullanılabilir."/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Uygulama kapsamında elde edilen bilgiler Social Map ve işbirliği içinde olduğu diğer kişi ve kurumlar tarafından Kullanıcının kimliği hiç bir şekilde açığa çıkarılmaksızın sadece çeşitli istatistiki değerlendirmeler, izinli pazarlama, veri tabanı oluşturma çabaları ve pazar araştırmaları yapma gibi durumlar dahilinde kullanılabilir."/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, Uygulama içerisinde başkaca sitelere link (bağlantı) sağlayabilir, anlaşmalı olduğu 3. Partilerin reklamlarını yayınlayabilir, Kullanıcıları reklamlar aracılığıyla reklam veren veya anlaşmalı 3. partilerin sitesine yönlendirebilir. Social Map, bu bağlantı yoluyla erişilen diğer Uygulamaların gizlilik uygulama ve politikalarına ya da barındırdıkları içeriklere yönelik olmak üzere hiç bir sorumluluk taşımamaktadır.
+"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, aşağıda sayılan hallerde ise işbu gizlilik bildirimi hükümleri dışına çıkarak kullanıcılara ait bilgileri üçüncü kişilere açıklayabilecektir. Bu durumlar;"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginStart="18dp"
+          android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_baseline_brightness_1_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Hukuk kurallarının getirdiği zorunluluklara uyulmasının gerektiği haller,"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginStart="18dp"
+          android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_baseline_brightness_1_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map’in, Kullanıcılarıyla arasındaki sözleşmelerin gereklerinin yerine getirilmesi ve bunların uygulamaya konulmalarıyla ilgili hallerde,"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="18dp"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_baseline_brightness_1_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Yetkili idari ve/veya adli makamlar tarafından usuli yöntemine uygun olarak yürütülen bir araştırma veya soruşturma doğrultusunda Kullanıcılarla ilgili bilgi talep edilmesi halleri,"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginStart="18dp"
+          android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_baseline_brightness_1_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Kullanıcıların haklarını veya güvenliklerini koruma amacıyla bilgi verilmesinin gerekli olduğu haller."/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, kendisine verilen gizli bilgileri kesinlikle özel ve gizli tutmayı, bunu bir sır olarak saklamayı yükümlülük olarak kabul ettiğini ve gizliliğin sağlanıp sürdürülmesi, gizli bilginin tamamının veya herhangi bir parçasının kamu alanına girmesini veya yetkisiz kullanımını veya üçüncü bir kişiye açıklanmasını önleme gereği olan gerekli tüm tedbirleri almayı ve üzerine düşen tüm özeni tam olarak göstermeyi taahhüt etmektedir."
+        />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map tarafından Uygulamalar içerisinde düzenlenebilecek periyodik veya periyodik olmayan anketlere cevap veren Kullanıcılardan talep edilebilecek bilgiler de, Social Map ve işbirliği içindeki kişi ya da kurumlar tarafından bu kullanıcılara doğrudan pazarlama yapmak, istatistiki analizler yapmak ve özel bir veri tabanı oluşturmak amacıyla da kullanılabilecektir."
+            />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="Social Map, işbu gizlilik bildiriminde geçen hükümleri gerekli gördüğü zamanda Uygulamada yayınlamak şartıyla değiştirebilir. Social Map’in değişiklik yaptığı gizlilik bildirimi hükümleri Uygulamada yayınlandığı tarihte yürürlüğe girmiş kabul edilir."
+            />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12."
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:text="İşbu Gizlilik Sözleşmesi, 12 (oniki) maddeden ibaret olup Mobil Uygulama Kullanıcı Sözleşmesinin ayrılmaz bir parçasıdır."
+            />
+
+      </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+  </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

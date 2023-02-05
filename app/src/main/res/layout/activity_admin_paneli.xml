@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPaneli"
+    android:padding="16dp"
+    android:background="@color/myColor"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İşletme adı: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/isletmeAdi"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İşletme id: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/isletmeId"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İşletme türü: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/isletmeTuru"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hesap Tipi: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/hesapTipi"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kayıtlı mı: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/kayitliMi"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="24dp"
+        android:background="@drawable/edittext_background"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foto yükle: "
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imgPickImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            android:layout_marginHorizontal="12dp"/>
+
+        <EditText
+            android:id="@+id/imageId"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:hint="id"
+            android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/fotoEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ekle"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/isletmeEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ekle"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"/>
+
+
+</LinearLayout>

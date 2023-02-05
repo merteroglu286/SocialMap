@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="userModel"
+            type="com.example.socialmap.UserModel" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.ProfileStatusActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kullanıcı Adı"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/editUserStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{userModel.status , default=Nothing}"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kaydet"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

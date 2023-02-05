@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<data>
+    <variable
+        name="userModel"
+        type="com.example.socialmap.UserModel" />
+</data>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    tools:context=".fragments.UserInfoViewPager.UserInfoHakkinda"
+    android:scrollbarSize="0dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/layout_vertical_scroller" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Eğitim ve Meslek"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/myColor"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cat_item_recycler_egitim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="İlgi Alanları"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/myColor"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_IlgiAlanlari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Hakkında"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/myColor"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtProfileStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight=".4"
+                android:text="@{userModel.status , default=Nothing}"
+                android:textColor="@color/purple_200"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</layout>

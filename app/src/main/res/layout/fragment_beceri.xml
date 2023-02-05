@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    tools:context=".fragments.Profile.BeceriFragment"
+    android:scrollbarSize="0dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:paddingBottom="50dp">
+
+            <include
+                layout="@layout/layout_vertical_scroller" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satranç"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_satranc"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/purple_500"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/purple_500"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basketbol"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_basketbol"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/orange"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/orange"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Futbol"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_futbol"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/forestGreen"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/forestGreen"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bilardo"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_bilardo"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bowling"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_bowling"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenis"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_tenis"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masa Tenisi"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_masa_tenisi"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Okey"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_okey"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paintball"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_paintball"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go-kart"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_gokart"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fifa"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_fifa"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pes"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_pes"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Counter Strike 1.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_cs_1.6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cs:Go"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_cs_go"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valorant"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_valorant"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="League Of Legends"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                />
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView_lol"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_alignParentBottom="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_borderColor="@color/black"
+                app:progressView_borderWidth="2dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_colorProgress="@color/black"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelText="0"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progress="0"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBeceriDuzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="64dp"
+        />
+
+
+</RelativeLayout>
+
+
+
+</layout>

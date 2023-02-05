@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="myColor">#94e1ff</color>
+    <color name="gray">#4FE1E0DD</color>
+    <color name="darkGray">#C8E1E0DD</color>
+    <color name="editTextColor">#DDDDDD</color>
+    <color name="recyclerColor">#ededed</color>
+    <color name="red">#FF0000</color>
+    <color name="forestGreen">#228B22</color>
+    <color name="profileDuzenleColor">#BCBCBC</color>
+    <color name="orange">#FF9F29</color>
+    <color name="darkGreen">#1A4D2E</color>
+    <color name="toolbarColor">#f8f8f8</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="defaultTextColor">#a7aeb6</color>
+</resources>

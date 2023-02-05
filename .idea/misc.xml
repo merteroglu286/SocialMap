@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/bg_msg_from.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/button_background.xml" value="0.2985" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/button_type_1.xml" value="0.2845" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/cat_row_background1.xml" value="0.2585" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/cat_row_background2.xml" value="0.156" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/edittext_background.xml" value="0.232" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/edittext_getuserdata.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/gender_background_selector.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/gender_checked_background.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/gender_unchecked_background.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/gradient_button_background.xml" value="0.2845" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.128" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.253" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_female_24.xml" value="0.3675" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_male_24.xml" value="0.3675" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2585" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2445" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.221" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_share_location_24.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_baseline_textsms_24.xml" value="0.339" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/indicator_dot.xml" value="0.289" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/isletme_gradient_buttons.xml" value="0.2845" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/layout_bk.xml" value="0.22" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/left_side_background.xml" value="0.2125" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/marker_background.xml" value="0.2" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/menu_item_checked.xml" value="0.1" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/message_edittext_send_background.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/my_image.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/myimage.xml" value="0.323" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/nav_menu.xml" value="0.224" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/navigation_item_color.xml" value="0.1" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/preview.xml" value="0.172" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/profile_title_background.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/profile_title_card.xml" value="0.2795" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/radio_female.xml" value="0.289" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/radio_male.xml" value="0.289" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/right_side_background.xml" value="0.2125" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/searchview_background.xml" value="0.248" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/text_button_background.xml" value="0.156" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/tranparent_background_menu.xml" value="0.317" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/drawable/transparent_background.xml" value="0.317" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/acilan_oyun_teklifi_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_admin_paneli.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_baslangic.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_dash_board.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_deneme.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_edit_name.xml" value="0.2203125" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_fullscreen_photo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_get_user_data.xml" value="0.3596014492753623" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_kullanici_sozlesmesi.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_message.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_my.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_my_dash_board.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_profile_duzenle.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_profile_name.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_profile_status.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_seekbar_beceri.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_splash_screen.xml" value="0.31023550724637683" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/activity_user_info.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/asd.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/banner_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/cat_row_item.xml" value="0.5" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/cat_row_item2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/cat_row_item3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/contact_item.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/contact_item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/content_admin_paneli.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/content_get_user_data.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/content_my_dash_board.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/custom_infowindow.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/custom_marker.xml" value="0.24375" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dashboard_dialog.xml" value="0.3181818181818182" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dashboard_item_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/delete_item_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/deneme.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dialog_infoview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dialog_layout_ilgi_alanlari_duzenle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dialog_layout_is_duzenle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/dm_screen_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_adres_bilgileri.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_beceri.xml" value="0.34615384615384615" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_beginning.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_chat.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_contact.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_first.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_get_number.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_get_user_data.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_hakkinda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_hakkinda_user_info_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_isletme_hakkinda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_map_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_maps.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_maps2.xml" value="0.3596014492753623" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_profile_isletme.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_second.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_sosyal.xml" value="0.1" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_user_data_control.xml" value="0.34601449275362317" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_user_info_beceri.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_user_info_blog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_user_info_hakkinda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/fragment_verify_number.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/indicator_dot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/item_isletme_photos.xml" value="0.2" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/item_view_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/item_view_two.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/item_viewpager.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/item_viewpager_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/layout_horizontal_scroller.xml" value="2.5142857142857142" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/layout_horizontal_spacer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/layout_vertical_scroller.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/layout_vertical_spacer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/left_item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/main_recycler_row_item.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/map_circle_pin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/map_circle_text.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/map_infoview.xml" value="0.25" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/map_message_dialog_layout.xml" value="0.22073578595317725" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/map_oyun_teklifi_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/message_toolbar.xml" value="0.33" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/myimage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/navigation_item_color.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/new_profile_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/pager_layout_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/pager_list_item_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/preview_seekbar.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/profile_fragment_is_duzenle_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/recycler_row.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/right_item_layout.xml" value="0.5" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/seekbar_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/layout/time_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/menu/delete_recyclerview_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/menu/isletme_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/menu/nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/mert_/AndroidStudioProjects/SocialMap/app/src/main/res/menu/profile_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_check_24.xml" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_close_24.xml" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

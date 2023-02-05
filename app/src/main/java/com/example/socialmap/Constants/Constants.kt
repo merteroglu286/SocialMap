@@ -1,0 +1,26 @@
+package com.example.socialmap.Constants
+
+class Constants {
+    val KEY_COLLECTION_USERS = "Users"
+    val KEY_NAME = "name"
+    val KEY_EMAIL = "email"
+    val KEY_PASSWORD = "password"
+    val KEY_PREFERENCE_NAME = "chatAppPreference"
+    val KEY_IS_SIGNED_IN = "isSignedIn"
+    val KEY_USER_ID = "userId"
+    val KEY_IMAGE = "image"
+    val KEY_FCM_TOKEN = "token"
+    val KEY_USER = "user"
+    val KEY_COLLECTION_CHAT = "Chat"
+    val KEY_SENDER_ID = "senderId"
+    val KEY_RECEIVER_ID = "receiverId"
+    val KEY_MESSAGE = "message"
+    val KEY_TIMESTAMP = "date"
+    val KEY_COLLECTION_CONVERSATIONS = "Conversations"
+    val KEY_SENDER_NAME = "senderName"
+    val KEY_RECEIVER_NAME = "receiverName"
+    val KEY_SENDER_IMAGE = "senderImage"
+    val KEY_RECEIVER_IMAGE = "receiverImage"
+    val KEY_LAST_MESSAGE = "lastMessage"
+    val KEY_AVAILABILITY = "availability"
+}
